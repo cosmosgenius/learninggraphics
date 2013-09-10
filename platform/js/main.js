@@ -1,10 +1,10 @@
 require.config({
     baseUrl: 'js',
     paths:{
-        jquery: 'asserts/jquery-min'
+        jquery: 'asserts/jquery-1.10.2'
     }
 });
 
-require(["area3d"],function(area3d){
-    console.dir(area3d);
+require(["area3d","jquery"],function(area3d,$){
+    
 });
