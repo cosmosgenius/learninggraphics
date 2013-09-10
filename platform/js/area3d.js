@@ -4,7 +4,11 @@ define([],function(){
     canvas = document.createElement("canvas");
     canvas.width = 1024;
     canvas.height = 768;
-    gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+    try{
+        gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+    }catch(e){
+        throw Error("Unable to initialize WebGL. Your browser may not support it.");
+    }
     retobj.gl = gl;
     return retobj;
 });
