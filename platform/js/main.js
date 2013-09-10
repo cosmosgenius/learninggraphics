@@ -5,6 +5,6 @@ require.config({
     }
 });
 
-require(["3dspace"],function($3dspace){
-    
+require(["area3d"],function(area3d){
+    console.dir(area3d);
 });
