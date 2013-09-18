@@ -6,5 +6,5 @@ require.config({
 });
 
 require(["area3d","jquery"],function(area3d,$){
-    
+    $("body").append(area3d.gl.canvas);
 });
