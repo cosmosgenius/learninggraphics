@@ -1,0 +1,22 @@
+{
+  "name": "learninggraphics",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cosmosgenius/learninggraphics",
+  "authors": [
+    "Sharat M R <cosmosgenius@gmail.com>"
+  ],
+  "description": "A repo to learn some design and graphics work",
+  "keywords": [
+    "learning",
+    "graphics"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

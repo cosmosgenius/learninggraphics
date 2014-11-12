@@ -1,0 +1,23 @@
+{
+  "name": "learninggraphics",
+  "version": "0.0.0",
+  "description": "A repo to learn some design and graphics work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cosmosgenius/learninggraphics.git"
+  },
+  "keywords": [
+    "learning",
+    "graphics"
+  ],
+  "author": "Sharat M R <cosmosgenius@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmosgenius/learninggraphics/issues"
+  },
+  "homepage": "https://github.com/cosmosgenius/learninggraphics"
+}
